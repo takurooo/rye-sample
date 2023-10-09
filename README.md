@@ -14,7 +14,7 @@ rye add --dev black
 rye sync # sync dev-dependency
 
 # format by black
-rye run black
+rye run format
 
 # activate virtualenv
 . .venv/bin/activate
