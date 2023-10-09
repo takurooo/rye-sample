@@ -22,7 +22,7 @@ dev-dependencies = [
 allow-direct-references = true
 
 [project.scripts]
-my-hello-script = 'rye_sample:hello'
+my-hello-script = 'rye_sample:main.run_app'
 
 [tool.rye.scripts]
 format = "black ."
